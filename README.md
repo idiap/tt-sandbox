@@ -8,11 +8,16 @@ This repository hosts two self-contained tutorial projects, each with its own ex
 
 Each subfolder contains its own `README.md` with detailed usage instructions.
 
-### Pre-requisites
+### Pre-requistes
 - Python version: 3.10.17
-- Pytorch version: 2.7.0
-- Install open3d: 0.17.0 (for 3D visualization)
-- Other packages
+- numpy: 1.21.6
+- matplotlib: 3.8.4
+- scipy: 1.7.3
+- scikit-image: 0.25.2
+- Pytorch version: 2.7.0 (only required for "ex2_sdf" example in tt-svd)
+- open3d: 0.17.0 (only required for "ex2_sdf" example in tt-svd)
+
+For simplicity, you can run
 
 ```pip install -r requirements.txt```
 
